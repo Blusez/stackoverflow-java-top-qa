@@ -31,10 +31,7 @@ boolean atLeastTwo(boolean a, boolean b, boolean c)
    return a ^ b ? c : a
 ```
 
-* 优雅解法4
-```java
-    return a ? (b || c) : (b && c);
-```
+
 
 
 stackoverflow链接： http://stackoverflow.com/questions/3076078/check-if-at-least-two-out-of-three-booleans-are-true
